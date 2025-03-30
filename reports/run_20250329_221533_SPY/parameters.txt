@@ -1,0 +1,10 @@
+symbol: SPY
+start_date: 2020-01-01
+end_date: 2023-12-31
+short_window: 20
+long_window: 50
+initial_capital: 100000.0
+max_capital_risk_pct: 0.02
+max_buying_power_pct: 0.6
+commission: 0.0
+slippage: 0.001

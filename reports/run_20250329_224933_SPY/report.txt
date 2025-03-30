@@ -1,0 +1,13 @@
+===== BACKTEST REPORT =====
+Initial Capital: $100000.00
+Final Equity: $96844.34
+Total Return: -3.16%
+Annual Return: -0.80%
+Sharpe Ratio: 0.16
+Sortino Ratio: 0.16
+Maximum Drawdown: 27.69%
+Win Rate: 27.78%
+Profit Factor: 0.74
+Average Win: $1754.26
+Average Loss: $-917.46
+Total Trades: 18

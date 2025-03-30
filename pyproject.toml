@@ -15,6 +15,7 @@ numpy = "^1.24.0"
 python-dotenv = "^1.0.0"  # Changed from dotenv to python-dotenv
 tastytrade-sdk = "^1.0.0"
 matplotlib = "^3.7.0"
+polygon-api-client = "^1.14.4"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"

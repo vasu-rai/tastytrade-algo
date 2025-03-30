@@ -1,0 +1,131 @@
+2025-03-29 22:11:01,583 - __main__ - INFO - Starting backtest for SPY from 2020-01-01 to 2023-12-31
+2025-03-29 22:11:01,584 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 22:11:01,584 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 22:11:01,584 - src.tastytrade_algo.data_fetcher - INFO - Downloading data for SPY using free API
+2025-03-29 22:11:01,798 - src.tastytrade_algo.data_fetcher - ERROR - Unexpected API response format: ['Error Message']
+2025-03-29 22:11:01,801 - __main__ - ERROR - No data available for SPY
+2025-03-29 22:15:33,913 - __main__ - INFO - Starting backtest for SPY from 2020-01-01 to 2023-12-31
+2025-03-29 22:15:33,914 - __main__ - INFO - Attempting to connect to Tastytrade API...
+2025-03-29 22:15:34,309 - src.tastytrade_algo.tastytrade_api - INFO - Successfully authenticated with Tastytrade API
+2025-03-29 22:15:34,309 - __main__ - INFO - Tastytrade API connected successfully.
+2025-03-29 22:15:34,310 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 22:15:34,310 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 22:15:34,311 - src.tastytrade_algo.data_fetcher - INFO - Downloading data for SPY using Tastytrade API
+2025-03-29 22:15:34,638 - src.tastytrade_algo.data_fetcher - ERROR - API error: 404 - {"timestamp":1743311734724,"status":404,"error":"Not Found","path":"/market-data/historical/equities/SPY/quotes"}
+2025-03-29 22:15:34,640 - __main__ - ERROR - No data available for SPY
+2025-03-29 22:45:59,616 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 3
+2025-03-29 22:45:59,618 - __main__ - INFO - Starting backtest for SPY from 2020-01-01 to 2023-12-31
+2025-03-29 22:45:59,618 - __main__ - ERROR - ALPHA_VANTAGE_API_KEY not found in .env file. Cannot fetch data.
+2025-03-29 22:47:45,034 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 3
+2025-03-29 22:47:45,036 - __main__ - INFO - Starting backtest for SPY from 2020-01-01 to 2023-12-31
+2025-03-29 22:47:45,036 - __main__ - ERROR - ALPHA_VANTAGE_API_KEY not found in .env file. Cannot fetch data.
+2025-03-29 22:49:33,026 - __main__ - INFO - Starting backtest for SPY from 2020-01-01 to 2023-12-31
+2025-03-29 22:49:33,027 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 22:49:33,027 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 22:49:33,027 - src.tastytrade_algo.data_fetcher - INFO - Downloading data for SPY using free API
+2025-03-29 22:49:33,027 - src.tastytrade_algo.data_fetcher - INFO - Requesting Alpha Vantage: {'function': 'TIME_SERIES_DAILY', 'symbol': 'SPY', 'outputsize': 'full', 'datatype': 'json', 'apikey': '7AND1Q6NAZI2OR23'}
+2025-03-29 22:49:34,002 - src.tastytrade_algo.data_fetcher - INFO - Successfully fetched 1006 records for SPY from Alpha Vantage
+2025-03-29 22:49:34,009 - src.tastytrade_algo.data_fetcher - INFO - Data cached to data/cache/SPY_daily_20200101_20231231.csv
+2025-03-29 22:49:34,013 - src.tastytrade_algo.strategy - INFO - Initialized MA Crossover: short=20, long=50
+2025-03-29 22:49:34,013 - src.tastytrade_algo.backtest - INFO - Initialized backtesting engine with 100000.00 capital
+2025-03-29 22:49:34,013 - __main__ - INFO - Running backtest...
+2025-03-29 22:49:34,014 - src.tastytrade_algo.strategy - INFO - Generated signals: 19 trade signals
+2025-03-29 22:49:34,043 - src.tastytrade_algo.backtest - INFO - Backtest completed: -3.16% total return
+2025-03-29 22:49:34,043 - __main__ - INFO - Generating report...
+2025-03-29 22:49:34,190 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_224933_SPY/equity_curve.png
+2025-03-29 22:49:34,243 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_224933_SPY/drawdown.png
+2025-03-29 22:49:34,243 - src.tastytrade_algo.backtest - INFO - Backtest report saved to reports/run_20250329_224933_SPY
+2025-03-29 22:49:34,296 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_224933_SPY/equity_curve.png
+2025-03-29 22:49:34,348 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_224933_SPY/drawdown.png
+2025-03-29 22:49:34,350 - src.tastytrade_algo.strategy - INFO - Generated signals: 19 trade signals
+2025-03-29 22:49:34,356 - __main__ - INFO - Backtest completed. Results saved to reports/run_20250329_224933_SPY
+2025-03-29 23:04:53,191 - __main__ - INFO - Configuring backtest for EQUITY: SPY
+2025-03-29 23:04:53,191 - __main__ - INFO - Starting backtest for SPY (equity) from 2023-01-01 to 2025-03-29
+2025-03-29 23:04:53,191 - __main__ - INFO - Report directory: reports/run_20250329_230453_SPY
+2025-03-29 23:04:53,191 - __main__ - ERROR - Failed to save parameters: name 'json' is not defined
+2025-03-29 23:04:53,191 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 23:04:53,191 - src.tastytrade_algo.data_fetcher - INFO - Alpha Vantage API key provided.
+2025-03-29 23:04:53,192 - src.tastytrade_algo.data_fetcher - INFO - Polygon.io API key provided and client installed.
+2025-03-29 23:04:53,192 - src.tastytrade_algo.data_fetcher - INFO - Tastytrade API object not provided.
+2025-03-29 23:04:53,192 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 23:04:53,193 - src.tastytrade_algo.data_fetcher - INFO - Downloading EQUITY data for SPY using Alpha Vantage API
+2025-03-29 23:04:53,193 - src.tastytrade_algo.data_fetcher - INFO - Requesting Alpha Vantage: {'function': 'TIME_SERIES_DAILY', 'symbol': 'SPY', 'outputsize': 'full', 'datatype': 'json', 'apikey': '7AND1Q6NAZI2OR23'}
+2025-03-29 23:04:54,208 - src.tastytrade_algo.data_fetcher - INFO - Successfully fetched 561 records for SPY from Alpha Vantage
+2025-03-29 23:04:54,213 - src.tastytrade_algo.data_fetcher - INFO - Data cached to data/cache/SPY_daily_20230101_20250329.csv
+2025-03-29 23:04:54,213 - __main__ - INFO - Preparing data for SPY...
+2025-03-29 23:04:54,219 - __main__ - INFO - Data prepared. Shape: (561, 8)
+2025-03-29 23:04:54,219 - __main__ - INFO - Initializing equity strategy and engine.
+2025-03-29 23:04:54,219 - src.tastytrade_algo.strategy - INFO - Initialized MA Crossover: short=20, long=50
+2025-03-29 23:04:54,219 - src.tastytrade_algo.backtest - INFO - Initialized backtesting engine with 100000.00 capital
+2025-03-29 23:04:54,219 - __main__ - INFO - Running backtest simulation for SPY...
+2025-03-29 23:04:54,221 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:04:54,241 - src.tastytrade_algo.backtest - INFO - Backtest completed: 18.64% total return
+2025-03-29 23:04:54,241 - __main__ - INFO - Backtest simulation finished.
+2025-03-29 23:04:54,242 - __main__ - INFO - Generating report...
+2025-03-29 23:04:54,403 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_230453_SPY/equity_curve.png
+2025-03-29 23:04:54,454 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_230453_SPY/drawdown.png
+2025-03-29 23:04:54,454 - src.tastytrade_algo.backtest - INFO - Backtest report saved to reports/run_20250329_230453_SPY
+2025-03-29 23:04:54,454 - __main__ - INFO - Plotting results...
+2025-03-29 23:04:54,504 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_230453_SPY/equity_curve.png
+2025-03-29 23:04:54,553 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_230453_SPY/drawdown.png
+2025-03-29 23:04:54,553 - __main__ - INFO - Saving signals...
+2025-03-29 23:04:54,554 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:04:54,558 - __main__ - INFO - Backtest completed. Results saved to reports/run_20250329_230453_SPY
+2025-03-29 23:14:30,878 - __main__ - INFO - Configuring backtest for EQUITY: SPY
+2025-03-29 23:14:30,878 - __main__ - INFO - Starting backtest for SPY (equity) from 2023-01-01 to 2025-03-29
+2025-03-29 23:14:30,878 - __main__ - INFO - Report directory: reports/run_20250329_231430_SPY
+2025-03-29 23:14:30,878 - __main__ - ERROR - Failed to save parameters: name 'json' is not defined
+2025-03-29 23:14:30,878 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 23:14:30,878 - src.tastytrade_algo.data_fetcher - INFO - Alpha Vantage API key provided.
+2025-03-29 23:14:30,879 - src.tastytrade_algo.data_fetcher - INFO - Polygon.io API key provided and client installed.
+2025-03-29 23:14:30,879 - src.tastytrade_algo.data_fetcher - INFO - Tastytrade API object not provided.
+2025-03-29 23:14:30,879 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 23:14:30,879 - src.tastytrade_algo.data_fetcher - INFO - Loading cached data for SPY from data/cache/SPY_daily_20230101_20250329.csv
+2025-03-29 23:14:30,883 - __main__ - INFO - Preparing data for SPY...
+2025-03-29 23:14:30,890 - __main__ - INFO - Data prepared. Shape: (561, 8)
+2025-03-29 23:14:30,890 - __main__ - INFO - Initializing equity strategy and engine.
+2025-03-29 23:14:30,890 - src.tastytrade_algo.strategy - INFO - Initialized MA Crossover: short=20, long=50
+2025-03-29 23:14:30,890 - src.tastytrade_algo.backtest - INFO - Initialized backtesting engine with 100000.00 capital
+2025-03-29 23:14:30,890 - __main__ - INFO - Running backtest simulation for SPY...
+2025-03-29 23:14:30,891 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:14:30,907 - src.tastytrade_algo.backtest - INFO - Backtest completed: 18.64% total return
+2025-03-29 23:14:30,907 - __main__ - INFO - Backtest simulation finished.
+2025-03-29 23:14:30,907 - __main__ - INFO - Generating report...
+2025-03-29 23:14:31,073 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_231430_SPY/equity_curve.png
+2025-03-29 23:14:31,129 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_231430_SPY/drawdown.png
+2025-03-29 23:14:31,130 - src.tastytrade_algo.backtest - INFO - Backtest report saved to reports/run_20250329_231430_SPY
+2025-03-29 23:14:31,130 - __main__ - INFO - Plotting results...
+2025-03-29 23:14:31,185 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_231430_SPY/equity_curve.png
+2025-03-29 23:14:31,239 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_231430_SPY/drawdown.png
+2025-03-29 23:14:31,239 - __main__ - INFO - Saving signals...
+2025-03-29 23:14:31,241 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:14:31,245 - __main__ - INFO - Backtest completed. Results saved to reports/run_20250329_231430_SPY
+2025-03-29 23:26:31,418 - __main__ - INFO - Configuring backtest for EQUITY: SPY
+2025-03-29 23:26:31,418 - __main__ - INFO - Starting backtest for SPY (equity) from 2023-01-01 to 2025-03-29
+2025-03-29 23:26:31,418 - __main__ - INFO - Report directory: reports/run_20250329_232631_SPY
+2025-03-29 23:26:31,418 - __main__ - ERROR - Failed to save parameters: name 'json' is not defined
+2025-03-29 23:26:31,419 - src.tastytrade_algo.data_fetcher - INFO - Initialized data fetcher with cache at data/cache
+2025-03-29 23:26:31,419 - src.tastytrade_algo.data_fetcher - INFO - Alpha Vantage API key provided.
+2025-03-29 23:26:31,419 - src.tastytrade_algo.data_fetcher - INFO - Polygon.io API key provided and client installed.
+2025-03-29 23:26:31,419 - src.tastytrade_algo.data_fetcher - INFO - Tastytrade API object not provided.
+2025-03-29 23:26:31,419 - __main__ - INFO - Fetching historical data for SPY
+2025-03-29 23:26:31,419 - src.tastytrade_algo.data_fetcher - INFO - Loading cached data for SPY from data/cache/SPY_daily_20230101_20250329.csv
+2025-03-29 23:26:31,423 - __main__ - INFO - Preparing data for SPY...
+2025-03-29 23:26:31,429 - __main__ - INFO - Data prepared. Shape: (561, 8)
+2025-03-29 23:26:31,429 - __main__ - INFO - Initializing equity strategy and engine.
+2025-03-29 23:26:31,429 - src.tastytrade_algo.strategy - INFO - Initialized MA Crossover: short=20, long=50
+2025-03-29 23:26:31,429 - src.tastytrade_algo.backtest - INFO - Initialized backtesting engine with 100000.00 capital
+2025-03-29 23:26:31,429 - __main__ - INFO - Running backtest simulation for SPY...
+2025-03-29 23:26:31,430 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:26:31,446 - src.tastytrade_algo.backtest - INFO - Backtest completed: 18.64% total return
+2025-03-29 23:26:31,446 - __main__ - INFO - Backtest simulation finished.
+2025-03-29 23:26:31,446 - __main__ - INFO - Generating report...
+2025-03-29 23:26:31,598 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_232631_SPY/equity_curve.png
+2025-03-29 23:26:31,653 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_232631_SPY/drawdown.png
+2025-03-29 23:26:31,653 - src.tastytrade_algo.backtest - INFO - Backtest report saved to reports/run_20250329_232631_SPY
+2025-03-29 23:26:31,653 - __main__ - INFO - Plotting results...
+2025-03-29 23:26:31,707 - src.tastytrade_algo.backtest - INFO - Equity curve saved to reports/run_20250329_232631_SPY/equity_curve.png
+2025-03-29 23:26:31,759 - src.tastytrade_algo.backtest - INFO - Drawdown plot saved to reports/run_20250329_232631_SPY/drawdown.png
+2025-03-29 23:26:31,759 - __main__ - INFO - Saving signals...
+2025-03-29 23:26:31,761 - src.tastytrade_algo.strategy - INFO - Generated signals: 12 trade signals
+2025-03-29 23:26:31,765 - __main__ - INFO - Backtest completed. Results saved to reports/run_20250329_232631_SPY
