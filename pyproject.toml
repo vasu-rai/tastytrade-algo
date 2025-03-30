@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tastytrade-algo"
+version = "0.1.0"
+description = "Initializing tastytrade trading rig"
+authors = ["vasu-rai <vasu@ceryneianpartners.com>"]
+license = "Proprietary - Ceryneian Partners LLC"
+packages = [
+    {include = "tastytrade_algo", from = "src"}
+    ]
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+requests = "^2.31.0"
+pandas = "^2.1.0"
+numpy = "^1.24.0"
+python-dotenv = "^1.0.0"  # Changed from dotenv to python-dotenv
+tastytrade-sdk = "^1.0.0"
+matplotlib = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
